@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --watchAll",
     "start": "node server",
-    "dev" : "nodemon server",
+    "dev": "nodemon server",
     "dev-container": "bash scripts/start-container.sh",
     "dev-stop": "bash scripts/stop-container"
   },
