@@ -1,0 +1,26 @@
+{
+  "name": "your-hood",
+  "version": "1.0.0",
+  "description": "neighbourhood collaboration site and we want to make a system to keep track of people, houses, and addresses of those houses.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node server",
+    "dev" : "nodemon server",
+    "dev-container": "bash scripts/start-container.sh",
+    "dev-stop": "bash scripts/stop-container"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkstechs/Your-Hood.git"
+  },
+  "author": "Kelechi Okoli, Adedayo Titiloye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkstechs/Your-Hood/issues"
+  },
+  "homepage": "https://github.com/mrkstechs/Your-Hood#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
