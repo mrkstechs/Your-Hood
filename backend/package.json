@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --watchAll",
     "start": "node server",
-    "dev" : "nodemon server",
+    "dev": "nodemon server",
     "dev-container": "bash scripts/start-container.sh",
     "dev-stop": "bash scripts/stop-container"
   },
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/mrkstechs/Your-Hood#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   }
 }
